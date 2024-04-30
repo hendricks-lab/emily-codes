@@ -1,6 +1,8 @@
 # emily-codes
 Emily's codes for live cell organelle motility, OT, and immunofluorescence analysis.
 
+Note: most of these codes reference the functions in the General_codes folder. Ensure you add all of these functions to a single folder and addpath to this directory before trying to run your analyses.
+
 Organelle_motility_TrackMate
 
 	1. Analyze_Tracjmate_motility_v2_em_master
@@ -35,7 +37,7 @@ Organelle_motility_TrackMate
 
 Organelle_motility_kymobutler
 
-Note: most of these codes reference the functions in the General_codes folder. Ensure you addpath to this directory before trying to run your analysis. 
+
 
 	1. Kymobutler_reader
 	Takes in a list of kymobutler files and generates a .mat file with the relevant parameters to be used in the next codes. Note: you will need to have run the get_axon_lengths_file to use the flux analysis (see TrackMate codes). 
